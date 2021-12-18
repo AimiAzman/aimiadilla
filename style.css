@@ -1,0 +1,27 @@
+p
+{
+    text-align: center;
+    color: Black;
+    font-family: times new roman;
+}
+ 
+h1
+{
+text-align: center;
+color: black;
+}
+ 
+body
+{
+    background-color: #ACBAA1;
+}
+ 
+table
+{
+    text-align: center;
+    color: black;
+    border: thin;
+    border: Coral;
+    font-family: times new roman;
+    width: 30%;
+    height: 60%;

@@ -1,0 +1,270 @@
+<html> 
+ 
+<head> 
+<title>Gallery</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type"> 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+<style> 
+.mySlides {display:none;} 
+</style> 
+</head> 
+<body bgcolor=#ACBAA1> 
+<style> 
+ 
+ul { 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  overflow: hidden; 
+  background-color: #545E45; 
+} 
+ 
+li { 
+  float: left; 
+} 
+ 
+li a { 
+  display: block; 
+  color: white; 
+  text-align: center; 
+  padding: 14px 16px; 
+  text-decoration: none; 
+} 
+ 
+li a:hover { 
+  background-color: ##111; 
+} 
+</style> 
+</head> 
+<body> 
+ 
+<ul> 
+  <li><a class="active" href="index.html">Home</a></li> 
+  <li><a href="profile.html">Profile</a></li> 
+  <li><a href="experience.html">Experience</a></li> 
+  <li><a href="education.html">Education</a></li> 
+  <li><a href="family.html">Family</a></li> 
+  <li><a href="gallery.html">Gallery</a></li> 
+  <li><a href="vacation.html">Vacation</a></li> 
+  <li><a href="favouritesong.html">Favourite Song</a></li>
+</ul> 
+
+<br>
+<h2 align="center"><font face="barlow">Come and Look My Gallery! ;)</font></h2>
+<center><a href="#My Family"><img src="images/buttonfamily.png"</a>    <a href="#My Friends"><img src="images/buttonfriends.png"></a>    <a href="#Myself"><img src="images/buttonmyself.png"></a> 
+<br>
+<br>
+<br>
+<font size="18"><a name="My Family">My Family</a></font>
+<br>
+<br>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Times New Roman;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<h2 style="text-align:center">Love of My Life <3</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="My Love of My Life">1 / 6</div>
+    <img src="images/family1.png">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="images/family9.png">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="images/family3.png">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="images/family5.png">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="images/family4.png">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="images/family6.png">
+  </div>
+    
+  
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/family1.png" style="width:100%" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/family9.png" style="width:100%" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/family3.png" style="width:100%" onclick="currentSlide(3)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/family5.png" style="width:100%" onclick="currentSlide(4)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/family4.png" style="width:100%" onclick="currentSlide(5)">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="images/family6.png" style="width:100%" onclick="currentSlide(6)">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<br>
+<br>
+<font size="18"><a name="My Friends">My Friends</a></font>
+<br>
+<br>
+<br>
+<img src="images/friend1.png" border="2"> <img src="images/friend3.png" border="2"> <img src="images/friend2.png" border="2"> <img src="images/friend4.png" border="2">
+<br>
+<br>
+<font size="18"><a name="Myself">Myself</a></font>
+<br>
+<br>
+<br>
+<img src="images/myself1.png" border="2"> <img src="images/myself3.png" border="2">  <img src="images/myself2.png" border="2">  <img src="images/myself4.png" border="2">
+<br>
+    
+</body>
+</html>
